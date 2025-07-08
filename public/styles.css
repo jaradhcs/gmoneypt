@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+  color: #f0f0f0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+}
+nav a {
+  margin: 0 1rem;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.chat {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 2rem;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+#chat-box {
+  min-height: 150px;
+  border: 1px solid #444;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  overflow-y: auto;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+}
